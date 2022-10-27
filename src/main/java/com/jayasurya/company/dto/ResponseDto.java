@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import lombok.Data;
 
+
+
 @Data
 public class ResponseDto implements Serializable{
 
@@ -12,7 +14,5 @@ public class ResponseDto implements Serializable{
 	private boolean error;
 		
 	private transient Object data;
-	
-	private String msg;
 	
 }

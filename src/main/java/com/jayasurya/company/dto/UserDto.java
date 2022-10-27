@@ -5,15 +5,11 @@ import lombok.Data;
 @Data
 public class UserDto {
 
-	private String uName;
+	private String name;
 
 	private String username;
 	private String password;
 	private String role;
 	private String email;
-	private String mobile;
-	
-	public UserDto() {
-		super();
-	}
+	private long mobile;
 }

@@ -9,6 +9,9 @@ public interface CompanyService {
 	
 	public List<CompanyDto> getAll();
 	public boolean deleteCompany(int id);
-	public CompanyDto upadteCompany(CompanyDto dto); 
+	public CompanyDto upadteCompany(CompanyDto data);
+	public void newCompany(CompanyDto data);
+	public List<CompanyDto> getAllUserComapny(String username);
+	public int approveComp(String name);
 
 }

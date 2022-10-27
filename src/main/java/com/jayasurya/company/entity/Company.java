@@ -27,6 +27,7 @@ public class Company implements Serializable{
 	
 	@Id
 	private int id;
+	
 	@Column(name="name")
 	private String cName;
 	private String address;
@@ -34,5 +35,5 @@ public class Company implements Serializable{
 	
 	@ManyToOne
 	@JoinColumn(name= "username")
-	private User created_by;
+	private User username;
 }

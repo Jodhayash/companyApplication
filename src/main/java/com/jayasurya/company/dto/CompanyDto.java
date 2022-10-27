@@ -12,6 +12,6 @@ public class CompanyDto {
 	private String address;
 	private String status;
 
-	private User created_by;
+	private User username;
 
 }

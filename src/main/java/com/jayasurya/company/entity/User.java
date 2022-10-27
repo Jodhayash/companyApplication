@@ -33,10 +33,6 @@ public class User implements Serializable{
 	private String password;
 	private String role;
 	private String email;
-	private String mobile;
-	
-	@Exclude
-	@OneToMany (cascade = CascadeType.ALL)
-	private Set<Company> company;
+	private long mobile;
 	
 }
